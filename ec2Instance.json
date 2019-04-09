@@ -1,0 +1,251 @@
+{
+    "Groups": [],
+    "Instances": [
+        {
+            "AmiLaunchIndex": 0,
+            "ImageId": "ami-005bdb005fb00e791",
+            "InstanceId": "i-0262d974d8c4960ed",
+            "InstanceType": "t2.micro",
+            "KeyName": "esee",
+            "LaunchTime": "2019-04-09T04:26:38.000Z",
+            "Monitoring": {
+                "State": "disabled"
+            },
+            "Placement": {
+                "AvailabilityZone": "us-west-2b",
+                "GroupName": "",
+                "Tenancy": "default"
+            },
+            "PrivateDnsName": "ip-172-31-23-102.us-west-2.compute.internal",
+            "PrivateIpAddress": "172.31.23.102",
+            "ProductCodes": [],
+            "PublicDnsName": "",
+            "State": {
+                "Code": 0,
+                "Name": "pending"
+            },
+            "StateTransitionReason": "",
+            "SubnetId": "subnet-5fa49826",
+            "VpcId": "vpc-44f3513c",
+            "Architecture": "x86_64",
+            "BlockDeviceMappings": [],
+            "ClientToken": "",
+            "EbsOptimized": false,
+            "Hypervisor": "xen",
+            "IamInstanceProfile": {
+                "Arn": "arn:aws:iam::283564121446:instance-profile/EnablesEC2ToAccessSystemsManagerRole",
+                "Id": "AIPAJVEXFTAXVL6DHK7WE"
+            },
+            "NetworkInterfaces": [
+                {
+                    "Attachment": {
+                        "AttachTime": "2019-04-09T04:26:38.000Z",
+                        "AttachmentId": "eni-attach-0609038473ccda7fb",
+                        "DeleteOnTermination": true,
+                        "DeviceIndex": 0,
+                        "Status": "attaching"
+                    },
+                    "Description": "",
+                    "Groups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-06ca17e9f8e10d552"
+                        }
+                    ],
+                    "Ipv6Addresses": [],
+                    "MacAddress": "02:de:96:fe:2b:c0",
+                    "NetworkInterfaceId": "eni-02b55d630c6833bf6",
+                    "OwnerId": "283564121446",
+                    "PrivateDnsName": "ip-172-31-23-102.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.23.102",
+                    "PrivateIpAddresses": [
+                        {
+                            "Primary": true,
+                            "PrivateDnsName": "ip-172-31-23-102.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.23.102"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Status": "in-use",
+                    "SubnetId": "subnet-5fa49826",
+                    "VpcId": "vpc-44f3513c"
+                }
+            ],
+            "RootDeviceName": "/dev/sda1",
+            "RootDeviceType": "ebs",
+            "SecurityGroups": [
+                {
+                    "GroupName": "launch-wizard-1",
+                    "GroupId": "sg-06ca17e9f8e10d552"
+                }
+            ],
+            "SourceDestCheck": true,
+            "StateReason": {
+                "Code": "pending",
+                "Message": "pending"
+            },
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "esee"
+                },
+                {
+                    "Key": "aws:ec2launchtemplate:version",
+                    "Value": "1"
+                },
+                {
+                    "Key": "aws:ec2launchtemplate:id",
+                    "Value": "lt-04dfc64765fa9b907"
+                }
+            ],
+            "VirtualizationType": "hvm",
+            "CpuOptions": {
+                "CoreCount": 1,
+                "ThreadsPerCore": 1
+            },
+            "CapacityReservationSpecification": {
+                "CapacityReservationPreference": "open"
+            }
+        }
+    ],
+    "OwnerId": "283564121446",
+    "ReservationId": "r-0c56c63bdb1d3e5e1"
+}
+{
+    "Reservations": [
+        {
+            "Groups": [],
+            "Instances": [
+                {
+                    "AmiLaunchIndex": 0,
+                    "ImageId": "ami-005bdb005fb00e791",
+                    "InstanceId": "i-0262d974d8c4960ed",
+                    "InstanceType": "t2.micro",
+                    "KeyName": "esee",
+                    "LaunchTime": "2019-04-09T04:26:38.000Z",
+                    "Monitoring": {
+                        "State": "disabled"
+                    },
+                    "Placement": {
+                        "AvailabilityZone": "us-west-2b",
+                        "GroupName": "",
+                        "Tenancy": "default"
+                    },
+                    "PrivateDnsName": "ip-172-31-23-102.us-west-2.compute.internal",
+                    "PrivateIpAddress": "172.31.23.102",
+                    "ProductCodes": [],
+                    "PublicDnsName": "ec2-34-222-48-223.us-west-2.compute.amazonaws.com",
+                    "PublicIpAddress": "34.222.48.223",
+                    "State": {
+                        "Code": 0,
+                        "Name": "pending"
+                    },
+                    "StateTransitionReason": "",
+                    "SubnetId": "subnet-5fa49826",
+                    "VpcId": "vpc-44f3513c",
+                    "Architecture": "x86_64",
+                    "BlockDeviceMappings": [
+                        {
+                            "DeviceName": "/dev/sda1",
+                            "Ebs": {
+                                "AttachTime": "2019-04-09T04:26:39.000Z",
+                                "DeleteOnTermination": true,
+                                "Status": "attaching",
+                                "VolumeId": "vol-029db40fb71dcf532"
+                            }
+                        }
+                    ],
+                    "ClientToken": "",
+                    "EbsOptimized": false,
+                    "EnaSupport": true,
+                    "Hypervisor": "xen",
+                    "IamInstanceProfile": {
+                        "Arn": "arn:aws:iam::283564121446:instance-profile/EnablesEC2ToAccessSystemsManagerRole",
+                        "Id": "AIPAJVEXFTAXVL6DHK7WE"
+                    },
+                    "NetworkInterfaces": [
+                        {
+                            "Association": {
+                                "IpOwnerId": "amazon",
+                                "PublicDnsName": "ec2-34-222-48-223.us-west-2.compute.amazonaws.com",
+                                "PublicIp": "34.222.48.223"
+                            },
+                            "Attachment": {
+                                "AttachTime": "2019-04-09T04:26:38.000Z",
+                                "AttachmentId": "eni-attach-0609038473ccda7fb",
+                                "DeleteOnTermination": true,
+                                "DeviceIndex": 0,
+                                "Status": "attaching"
+                            },
+                            "Description": "",
+                            "Groups": [
+                                {
+                                    "GroupName": "launch-wizard-1",
+                                    "GroupId": "sg-06ca17e9f8e10d552"
+                                }
+                            ],
+                            "Ipv6Addresses": [],
+                            "MacAddress": "02:de:96:fe:2b:c0",
+                            "NetworkInterfaceId": "eni-02b55d630c6833bf6",
+                            "OwnerId": "283564121446",
+                            "PrivateDnsName": "ip-172-31-23-102.us-west-2.compute.internal",
+                            "PrivateIpAddress": "172.31.23.102",
+                            "PrivateIpAddresses": [
+                                {
+                                    "Association": {
+                                        "IpOwnerId": "amazon",
+                                        "PublicDnsName": "ec2-34-222-48-223.us-west-2.compute.amazonaws.com",
+                                        "PublicIp": "34.222.48.223"
+                                    },
+                                    "Primary": true,
+                                    "PrivateDnsName": "ip-172-31-23-102.us-west-2.compute.internal",
+                                    "PrivateIpAddress": "172.31.23.102"
+                                }
+                            ],
+                            "SourceDestCheck": true,
+                            "Status": "in-use",
+                            "SubnetId": "subnet-5fa49826",
+                            "VpcId": "vpc-44f3513c"
+                        }
+                    ],
+                    "RootDeviceName": "/dev/sda1",
+                    "RootDeviceType": "ebs",
+                    "SecurityGroups": [
+                        {
+                            "GroupName": "launch-wizard-1",
+                            "GroupId": "sg-06ca17e9f8e10d552"
+                        }
+                    ],
+                    "SourceDestCheck": true,
+                    "Tags": [
+                        {
+                            "Key": "Name",
+                            "Value": "esee"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:version",
+                            "Value": "1"
+                        },
+                        {
+                            "Key": "aws:ec2launchtemplate:id",
+                            "Value": "lt-04dfc64765fa9b907"
+                        }
+                    ],
+                    "VirtualizationType": "hvm",
+                    "CpuOptions": {
+                        "CoreCount": 1,
+                        "ThreadsPerCore": 1
+                    },
+                    "CapacityReservationSpecification": {
+                        "CapacityReservationPreference": "open"
+                    },
+                    "HibernationOptions": {
+                        "Configured": false
+                    }
+                }
+            ],
+            "OwnerId": "283564121446",
+            "ReservationId": "r-0c56c63bdb1d3e5e1"
+        }
+    ]
+}
